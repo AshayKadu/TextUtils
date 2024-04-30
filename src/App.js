@@ -16,7 +16,7 @@ function App() {
   const [alert, setAlert] = useState (null);
 
   const showAlert = (message, type) =>{
-    setAlert({
+    setAlert({ 
       msg: message,
       type: type
     })
